@@ -1,0 +1,34 @@
+.filter-container {
+    display: flex;
+    width: 100%;
+    padding-left: 10rem;  
+    margin-bottom: 4rem;  
+}
+
+.filter-row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 4rem;
+}
+
+.filter-container label {
+    color: black;
+    margin-right: 10px;
+}
+
+.filter-label {
+    background-color: rgba(243, 211, 211, 0.884);
+    padding: 4px 1rem;
+    margin-right: 1rem;
+    color: black;
+    cursor: pointer;
+}
+
+.filter-la bel:hover {
+    background-color: rgb(218, 171, 171);
+}
+
+.filter-labels {
+    display: flex;    
+}
