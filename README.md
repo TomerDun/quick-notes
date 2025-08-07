@@ -1,50 +1,49 @@
-# Quick-Notes 📝
+# quick-notes
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/your-username/quick-notes) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![React](https://img.shields.io/badge/react-17.0.2-blue.svg)]
-
-> A sleek, lightning-fast note-taking app built in React — store your thoughts locally and find them in an instant with real-time search.
+A super-simple, lightning-fast note-taking app built with React. Notes are saved locally in your browser and you can instantly search through them.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Local Storage**  
-  All your notes stay on your device — no backend required.
+  All notes persist in your browser’s LocalStorage—no server or database required.
 
 - **Instant Search**  
-  Filter notes as you type. Never lose track of that one idea again.
-
-- **Rich Text Support**  
-  Basic Markdown formatting for headings, lists, and inline code.
-
-- **Responsive Design**  
-  Perfectly usable on desktop, tablet, or mobile.
-
-- **Dark Mode**  
-  Easy on the eyes when you’re burning the midnight oil.
+  Filter your notes in real time as you type.
 
 ---
 
-## 📸 Screenshots
-
-<div text-align="center">
-  <!-- Replace with your actual screenshots -->
-  <img src="./screenshots/notes-list.png" alt="Notes List" width="300" />  
-  <img src="./screenshots/search.png" alt="Search in Action" width="300" />
-</div>
-
----
-
-## 🛠️ Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) ≥ 14.x  
-- [npm](https://www.npmjs.com/) ≥ 6.x  
-
-### Installation
+## Installation
 
 1. **Clone the repo**  
    ```bash
    git clone https://github.com/your-username/quick-notes.git
    cd quick-notes
+   ```
+
+2. **Install dependencies**  
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**  
+   ```bash
+   npm start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## Usage
+
+1. Click **“+ New Note”** to create a note.  
+2. Type your content—changes save automatically.  
+3. Use the search bar at the top to filter notes by keyword.
+
+---
+
+## Built With
+
+- [React](https://reactjs.org/)
