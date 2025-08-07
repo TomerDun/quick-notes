@@ -1,12 +1,50 @@
-# React + Vite
+# Quick-Notes 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/your-username/quick-notes) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![React](https://img.shields.io/badge/react-17.0.2-blue.svg)]
 
-Currently, two official plugins are available:
+> A sleek, lightning-fast note-taking app built in React — store your thoughts locally and find them in an instant with real-time search.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Local Storage**  
+  All your notes stay on your device — no backend required.
+
+- **Instant Search**  
+  Filter notes as you type. Never lose track of that one idea again.
+
+- **Rich Text Support**  
+  Basic Markdown formatting for headings, lists, and inline code.
+
+- **Responsive Design**  
+  Perfectly usable on desktop, tablet, or mobile.
+
+- **Dark Mode**  
+  Easy on the eyes when you’re burning the midnight oil.
+
+---
+
+## 📸 Screenshots
+
+<div text-align="center">
+  <!-- Replace with your actual screenshots -->
+  <img src="./screenshots/notes-list.png" alt="Notes List" width="300" />  
+  <img src="./screenshots/search.png" alt="Search in Action" width="300" />
+</div>
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) ≥ 14.x  
+- [npm](https://www.npmjs.com/) ≥ 6.x  
+
+### Installation
+
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/your-username/quick-notes.git
+   cd quick-notes
